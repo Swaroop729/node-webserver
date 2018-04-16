@@ -18,9 +18,9 @@ hbs.registerPartials(__dirname+'/views/partials');
 app.set('view engine','hbs');
 app.use(express.static(__dirname+'/public'));
 
-app.use((req,res,next)=>{
-    res.render('maintenance.hbs')
-})
+// app.use((req,res,next)=>{
+//     res.render('maintenance.hbs')
+// })
 
 app.use((req,res,next)=>{
     var now = new Date().toString();
@@ -41,6 +41,12 @@ app.get('/',(req,res)=>{
 
 app.get('/about',(req,res)=>{
     res.render('about.hbs',{
+        Title : "About Page Title through dynamic way",
+    })
+})
+
+app.get('/project',(req,res)=>{
+    res.render('project.hbs',{
         Title : "About Page Title through dynamic way",
     })
 })
