@@ -47,7 +47,7 @@ app.get('/about',(req,res)=>{
 
 app.get('/project',(req,res)=>{
     res.render('project.hbs',{
-        Title : "About Page Title through dynamic way",
+        Title : "About Project ",
     })
 })
 

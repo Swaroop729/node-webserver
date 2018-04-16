@@ -1,3 +1,6 @@
 [0416/050237.496:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Junemike\Reports\Dump: The system cannot find the path specified. (0x3)
 [0416/050237.501:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
 [0416/050237.503:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Junemike\Reports\Dump: The system cannot find the path specified. (0x3)
+[0417/004458.094:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Junemike\Reports\Dump: The system cannot find the path specified. (0x3)
+[0417/004458.099:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0417/004458.100:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Junemike\Reports\Dump: The system cannot find the path specified. (0x3)
